@@ -1,10 +1,43 @@
-Motivation
-==========
+Environment
+Visual Studio 2012
+C++
+GLUT and GLEW
 
-I tried my hands on OpenGL several times in the last 10 years. I inevitably got bogged down in all the gory details before successfully showing a multicolored triangle.
+Setting up a Visual Studio 2012 project
+*All configurations
+include directories
+libraries
+windows vs. command line
+project templates
+	download templates
+	create a Visual Studio project template
 
-This is just another stab at it.
+Hello World in OpenGL
+- glut init
+- glew
+	*EXPERIMENTAL
+- display, keyboard, main loop
+- immediate mode: dot
+- talk about the world and the camera and coordinates (later) 
 
-What's different now? Not much really,  just that I read a different book now: Interactive Computer Graphics: A Top-Down Approach with Shader-Based OpenGL (6th Edition) (http://www.amazon.com/Interactive-Computer-Graphics-Top-Down-Shader-Based/dp/0132545233).
+OpenGL: immediate vs. retained
+OpenGL shaders
+	the shaders: vertex shader (vertex location in your world) and fragment shader (pixel color on screen)
+	the prorgam
+	loading and compiling and linking
+	passing variables to the shaders
+Vertex arrays and vertex buffers
+Project: random points
+	side dish: generating random numbers
+	... and random lines
+	... and random triangles
+	... and random triangle stripes and lists
+	... and random polygons
+	... and anyhow...
 
-The coolest thing about this book is that it starts with retained mode drawing (meaning prepare your vertices, push it to the graphics card, set up your vertex and fragment shaders and on display() just glDrawArrays). Surely it's more work in the beginning, but somehow the code looks nicer: you have a separate place to build your drawing, a separate place to link the drawing up with OpenGL and a trivial display() loop.
+Coordinates
+- model
+- world
+- view
+(then on the screen)
+
