@@ -1,0 +1,22 @@
+Hello OpenGL World
+
+display()
+{
+    glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+    glClear(GL_COLOR_BUFFER_BIT);
+
+    glBegin(GL_POINTS);
+    glVertex2f(0.0f, 0.0f);
+    glEnd();
+
+    glFlush();
+
+}
+
+int main()
+{
+	glutInit(argc, argv);
+	glutCreateWindow("Hello World!");
+	glutDisplayFunc(display);
+	glutMainLoop();
+}

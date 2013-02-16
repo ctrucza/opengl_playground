@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E59C73FC-9922-429F-ADDE-412CC1BCA862}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\doc\environment.txt = ..\..\doc\environment.txt
+		..\..\doc\helloworld.txt = ..\..\doc\helloworld.txt
+		..\..\doc\notes.txt = ..\..\doc\notes.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{886F9392-5086-4CB2-9AC4-717D077A5E48}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloVertexBuffers", "HelloVertexBuffers\HelloVertexBuffers.vcxproj", "{ABDE342D-3B29-4C39-BE7A-EB30076DB5C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{886F9392-5086-4CB2-9AC4-717D077A5E48}.Debug|Win32.ActiveCfg = Debug|Win32
+		{886F9392-5086-4CB2-9AC4-717D077A5E48}.Debug|Win32.Build.0 = Debug|Win32
+		{886F9392-5086-4CB2-9AC4-717D077A5E48}.Release|Win32.ActiveCfg = Release|Win32
+		{886F9392-5086-4CB2-9AC4-717D077A5E48}.Release|Win32.Build.0 = Release|Win32
+		{ABDE342D-3B29-4C39-BE7A-EB30076DB5C8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ABDE342D-3B29-4C39-BE7A-EB30076DB5C8}.Debug|Win32.Build.0 = Debug|Win32
+		{ABDE342D-3B29-4C39-BE7A-EB30076DB5C8}.Release|Win32.ActiveCfg = Release|Win32
+		{ABDE342D-3B29-4C39-BE7A-EB30076DB5C8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

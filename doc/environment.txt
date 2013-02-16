@@ -1,0 +1,16 @@
+*link to the book site:  http://www.cs.unm.edu/~angel/BOOK/INTERACTIVE_COMPUTER_GRAPHICS/SIXTH_EDITION/
+
+Setting up the environment
+
+GLUT
+*what is glut?*
+As the official GLUT is not updated, I choose the freeglut implementation (http://freeglut.sourceforge.net/).
+Freeglut is distributed as sources so you can build yourself. Or if you are lazy as I am, you can get a package precompiled for MSVC here: http://www.transmissionzero.co.uk/software/freeglut-devel/
+Installation is straightforward: unzip it to a folder of your choice.
+
+GLEW
+*what is glew*
+
+Project settings
+include directories
+linker input

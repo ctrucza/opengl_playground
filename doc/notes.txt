@@ -16,11 +16,13 @@ Hello World in OpenGL
 - glut init
 - glew
 	*EXPERIMENTAL
-- display, keyboard, main loop
+- display, main loop
 - immediate mode: dot
 - talk about the world and the camera and coordinates (later) 
 
 OpenGL: immediate vs. retained
+	vertex buffers
+
 OpenGL shaders
 	the shaders: vertex shader (vertex location in your world) and fragment shader (pixel color on screen)
 	the prorgam
