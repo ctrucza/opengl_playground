@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://ctrucza.github.com/opengl_playground/atom.xml" rel="self"/>
+  <link href="http://ctrucza.github.com/opengl_playground/"/>
+  <updated>2013-02-16T16:44:25+02:00</updated>
+  <id>http://ctrucza.github.com/opengl_playground/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>

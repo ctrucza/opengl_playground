@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://ctrucza.github.com/opengl_playground/sitemap.xml 
