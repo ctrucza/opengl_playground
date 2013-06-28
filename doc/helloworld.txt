@@ -15,8 +15,8 @@ display()
 
 int main()
 {
-	glutInit(argc, argv);
-	glutCreateWindow("Hello World!");
-	glutDisplayFunc(display);
-	glutMainLoop();
+    glutInit(argc, argv);
+    glutCreateWindow("Hello World!");
+    glutDisplayFunc(display);
+    glutMainLoop();
 }

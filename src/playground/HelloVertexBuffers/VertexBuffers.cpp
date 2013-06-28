@@ -14,10 +14,10 @@ void init()
     center.x = 0.0f;
     center.y = 0.0f;
 
-	GLuint buffer;
-	glGenBuffers(1, &buffer);
+    GLuint buffer;
+    glGenBuffers(1, &buffer);
     glBufferData(GL_ARRAY_BUFFER, sizeof(Point), &center, GL_STATIC_DRAW);
-	glBindBuffer(GL_ARRAY_BUFFER, buffer);
+    glBindBuffer(GL_ARRAY_BUFFER, buffer);
 }
 
 void display()
@@ -34,8 +34,8 @@ void display()
 int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
-	glutCreateWindow("Hello World!");
-	glutDisplayFunc(display);
+    glutCreateWindow("Hello World!");
+    glutDisplayFunc(display);
 
     glewExperimental = GL_TRUE;
     glewInit();
