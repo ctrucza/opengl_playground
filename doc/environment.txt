@@ -12,5 +12,5 @@ GLEW
 *what is glew*
 
 Project settings
-include directories
-linker input
+Include directories
+Linker input
